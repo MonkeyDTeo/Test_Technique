@@ -1,4 +1,7 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
+
+import Cleave from 'cleave.js/react';
 
 export default function LoginPage() {
     return (
@@ -9,16 +12,16 @@ export default function LoginPage() {
                         <div class="flex justify-between">
                             <p class="text-3xl font-bold">Paiement sécurisé par prélèvement bancaire</p>
                         </div>
-                        <div class="text-center	max-w-md mx-auto bg-gray-50 rounded-xl md:max-w-xl">
+                        <div class="text-center	max-w-md mx-auto bg-gray-100 w-5/6 md:max-w-xl">
                             <p>Mise en place d'un mandat SEPA MANGOPAY</p>
                         </div>
                         <form class="w-full max-w-lg">
-                            <div class="flex p-5 mb-6">
-                                <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+                            <div class="flex p-5">
+                                <div class="w-full md:w-1/2 px-3 md:mb-0">
                                     <label class="block tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-first-name">
-                                        Titualaire du compte
+                                        Adresse du titulaire
                                     </label>
-                                    <input class="text-sm italic appearance-none block w-full text-gray-700 border border-gray-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" type="text" placeholder="Titualaire du compte" />
+                                    <input class="text-sm italic appearance-none block w-full text-gray-700 border border-gray-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" type="text" placeholder="Adresse du titulaire" />
                                 </div>
                             </div>
                             <div class="flex p-5" >
@@ -29,7 +32,7 @@ export default function LoginPage() {
                                     <input class="text-sm italic appearance-none block w-full text-gray-700 border border-gray-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" type="text" placeholder="Adresse du titulaire" />
                                 </div>
                             </div>
-                            <div class="flex p-8 -mx-3 mb-6">
+                            <div class="flex p-5 -mx-3">
                                 <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
                                     <label class="block tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-first-name">
                                         Ville
@@ -43,7 +46,7 @@ export default function LoginPage() {
                                     <input class="text-sm italic appearance-none block w-full text-gray-700 border border-gray-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text" placeholder="Région" />
                                 </div>
                             </div>
-                            <div class="flex p-8 mb-2">
+                            <div class="flex p-5">
                                 <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
                                     <label class="block tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-first-name">
                                         Code Postal
@@ -66,7 +69,7 @@ export default function LoginPage() {
                                     <label class="block tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-first-name">
                                         IBAN
                                     </label>
-                                    <input class="text-sm italic appearance-none block w-full text-gray-700 border border-gray-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" type="text" placeholder="Titualaire du compte" />
+                                    <input class="text-sm italic appearance-none block w-full text-gray-700 border border-gray-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" type="text" placeholder="" />
                                 </div>
                             </div>
                         </form>
