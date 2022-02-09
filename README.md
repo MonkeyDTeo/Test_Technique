@@ -8,11 +8,11 @@ Les technos utilisé on été du ReactJS et TailwindCSS
 
 Le temps de conception de cette maquette à duré 5 jour.
 
-Samedi : 2h
-Dimanche 5h
-Lundi : 2h:
-Mardi : 7h
-Mercredi : 2h
+  - Samedi : 2h
+  - Dimanche 5h
+  - Lundi : 2h
+  - Mardi : 7h
+  - Mercredi : 2h
 
 Total : 18h
 
