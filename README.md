@@ -22,6 +22,13 @@ Je n'ai donc pas pu me consacrer à temps plein à la maquette.
 Point réalisé : 
   - Récupération des datas du Json
   - Respect des conditions donné pour le Json
+  - Respect approché du front demandé
 
 Point non réalisé :
-  - Front respectant l'exemple donné
+  - Front respectant à l'identique l'exemple donné
+  - Button switch entre facture payés et à payer
+  - Animated tablle panel lors du Login
+  - Condition non géré lorsque la facture a à la fois un discount et un multiPaymentStatus : Available, affichage des 2 phrase
+
+Point en cours de réalisation :
+  - Une partie responsive était en cours de réalisation
