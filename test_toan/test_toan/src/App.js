@@ -1,16 +1,16 @@
 import React from "react";
-import Home from "./components/HomePage/HomePage"
-import LoginPage from "./components/LoginPage/LoginPage";
-import BillToPay from "./components/HomePage/BillToPay"
+import BillToPayed from "./pages/BillToPayed"
+import LoginPage from "./pages/Login";
+import BillPayed from "./pages/BillPayed"
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 const App = () => {
   return (
     <Router>
       <Routes>
-        <Route path='/' element={<Home />} />
+        <Route path='/' element={<BillToPayed />} />
         <Route path='LoginPage' element={< LoginPage />} />
-        <Route path='BillToPay' element={< BillToPay />} />
+        <Route path='BillPayed' element={< BillPayed />} />
       </Routes>
     </Router>
   );
